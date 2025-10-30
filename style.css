@@ -1,0 +1,280 @@
+/* General Page Style */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url("port\ bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  padding: 20px 40px;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 8px 14px;
+  background: purple;
+  color: white;
+  border-radius: 25px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  background: #9b30ff;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  margin-top: 140px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 40px;
+}
+
+/* Profile Image */
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 60px auto;
+  border: 4px solid purple;
+}
+
+/* Summary Paragraph */
+.summary {
+  max-width: 700px;
+  margin: 60px auto 0;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: hsl(0, 0%, 100%);
+  line-height: 1.8;
+}
+/* Education Section */
+.education {
+  text-align: center;
+  margin-top: 140px;
+}
+
+/* Education Section */
+.education {
+  text-align: center;
+  margin-top: 140px;
+}
+
+/* Education Section */
+.education {
+  margin-top: 70px;
+  max-width: 800px;
+  margin-left: 50px; /* push content slightly right to leave space for title on left */
+}
+
+/* Education Title */
+.edu-title {
+  margin-top: 7px; /* was 100px, increased to move it higher */
+  margin-bottom: 50px;
+  max-width: 800px;
+  margin-left: 50px; 
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+
+/* Education List */
+.edu-list {
+  list-style: none; /* remove default bullets */
+  padding: 0;
+   margin-top: 100px;
+  max-width: 800px;
+}
+
+.edu-list li {
+  background: rgba(128, 0, 128, 0.6); 
+  padding: 15px 20px;
+  margin: 25px 0;
+  border-radius: 20px;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.6;
+  text-align: left;       /* left-aligned text */
+  margin-left: 400px;     /* box moved right */
+  width: 600px;           /* optional, adjust to fit nicely */
+}
+
+/* Language Section */
+.language {
+  margin-top: 70px; /* adjust to move section down */
+  max-width: 800px;
+  margin-left: 100px;
+}
+
+/* Language Title */
+.lang-title {
+  margin-top:7px;
+  margin-bottom: 50px;
+  max-width: 800px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+
+
+/* Language List */
+.lang-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 100px;
+  max-width: 800px;
+}
+
+.lang-list li {
+  background: rgba(128, 0, 128, 0.6); 
+  padding: 15px 20px;
+  margin: 25px 0;   /* reduce top/bottom margin to 5px (or 0) */
+  border-radius: 20px;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.6;
+  text-align: left;
+  margin-left: 350px;
+  width: 300px;
+}
+
+/* Skills Section */
+.skills {
+  margin-top: 140px; /* adjust as needed */
+  max-width: 800px;
+  margin-left: 50px;
+}
+
+/* Skills Title */
+.skills-title {
+    max-width: 800px;
+  font-size: 2.5rem;
+   margin-top: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+/* Subheadings */
+.subheading {
+  max-width: 800px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: white;
+  margin-top: 75px;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-left: 90px; /* move it slightly to the right */
+}
+
+
+/* Skills List */
+.skills-list {
+  list-style: none;
+  padding: 0;
+  
+}
+
+.skills-list li {
+  background: rgba(128, 0, 128, 0.6); /* purple transparent box */
+  padding: 15px 20px;
+    margin-top: 15px;   /* keeps it a bit lower if needed */
+  margin-bottom: 60px; 
+  margin: 30px 0; /* small gap between items */
+  border-radius: 20px;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.6;
+  text-align: left;
+  margin-left: 450px; /* adjust horizontal position */
+  width: 500px; /* adjust width as needed */
+}
+
+/* Contact Section */
+.contact {
+  margin-top: 72px; /* adjust as needed */
+  max-width: 800px;
+  margin-left: 50px;
+}
+
+/* Contact Title */
+.contact-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 40px;
+  text-align: left;
+  margin-left: 52px;
+}
+
+/* Contact List */
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list li {
+  background: rgba(128, 0, 128, 0.6);
+  padding: 15px 20px;
+  margin: 30px 0;
+  border-radius: 20px;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.6;
+  width: 400px;       /* adjust width as needed */
+  text-align: left;
+  margin-left: 350px; /* adjust horizontal position */
+}
+
+.contact-list li a {
+  color: #fff;
+  text-decoration: underline; /* makes LinkedIn clickable */
+}
+
+.resume-link {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.resume-img {
+  width: 100px;
+  height: auto;
+  cursor: pointer; /* shows clickable pointer */
+  transition: 0.3s;
+}
+
+.resume-img:hover {
+  transform: scale(1.1); /* nice zoom on hover */
+}
+
+.resume-text {
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
